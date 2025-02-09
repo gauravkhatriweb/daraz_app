@@ -20,8 +20,18 @@ dependencies:
     sdk: flutter
 
   # Utility Packages
+  http:
+  intl:
+  logger:
+  url_launcher:
+
+  # Icons
   cupertino_icons:
   iconsax:
+
+  # State Managements
+  get:
+  get_storage:
 
   # Product Specific Packages
   # Add packages here as needed (e.g., for Firebase, HTTP, etc.)

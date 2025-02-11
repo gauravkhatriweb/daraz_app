@@ -24,6 +24,7 @@ dependencies:
   intl:
   logger:
   url_launcher:
+  flutter_native_splash: ^2.4.4
 
   # Icons
   cupertino_icons:
@@ -56,9 +57,7 @@ flutter:
   assets:
     - assets/images/
     - assets/fonts/
-    - assets/icons/
-    - assets/videos/
-    - assets/images/brand_logos
+    - assets/images/brand_logos/
 
   #---------------------------------- LOCAL FONTS ----------------------------#
   fonts:

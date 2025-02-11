@@ -1,13 +1,11 @@
 pluginManagement {
-    def flutterSdkPath = {
-        def properties = new Properties()
-        file("local.properties").withInputStream { properties.load(it) }
-        def flutterSdkPath = properties.getProperty("flutter.sdk")
-        assert flutterSdkPath != null, "flutter.sdk not set in local.properties"
-        return flutterSdkPath
-    }()
+    def properties = new Properties()  // No need to explicitly import java.util.Properties in Groovy
+    file("local.properties").withInputStream { stream -> properties.load(stream) }
 
-    includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
+    def flutterSdkPath = properties.getProperty("flutter.sdk")
+    assert flutterSdkPath != null : "flutter.sdk not set in local.properties"
+
+    includeBuild("${flutterSdkPath}/packages/flutter_tools/gradle")
 
     repositories {
         google()
@@ -22,4 +20,4 @@ plugins {
     id "org.jetbrains.kotlin.android" version "1.8.22" apply false
 }
 
-include ":app"
+include(":app")

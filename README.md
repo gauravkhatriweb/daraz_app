@@ -88,6 +88,7 @@ Till now, I have used the following dependencies in my project. In the future, I
 - **get**: latest
 - **get_storage**: latest
 - **provider**: ^6.0.3
+- **flutter_native_splash**: ^2.4.4
 
 ---
 

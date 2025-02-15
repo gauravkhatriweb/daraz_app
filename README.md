@@ -1,4 +1,4 @@
-# # I am Sorry my exams are near so i cannot coniutne this project there are  some errors in the project but after my exams i will countitu this project
+# # I am Sorry my exams are near so i cannot continue this project there are  some errors in the project but after my exams i will continue this project
 
 
 

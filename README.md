@@ -1,3 +1,7 @@
+# # I am Sorry my exams are near so i cannot coniutne this project there are  some errors in the project but after my exams i will countitu this project
+
+
+
 # 🛍️ Daraz App (Flutter Project)
 
 The **Daraz App** is an e-commerce platform built using **Flutter**, designed to provide users with a smooth and intuitive online shopping experience. I am **Gaurav Khatri**, and I am developing this project by following the **Coding with T** tutorial series on YouTube. This README serves to guide developers and contributors on project setup, features, and usage.
@@ -24,21 +28,20 @@ Check out the full tutorial series by **Coding with T** on YouTube:
 ## ⚙️ Installation
 
 To run this project locally, follow these steps:
-
-```bash
 # Clone the repository
+```bash
 git clone https://github.com/gauravkhatriweb/daraz_app.git
 ```
-```bash
 # Navigate to the project directory
+```bash
 cd daraz_app
 ```
-```bash
 # Install the dependencies
+```bash
 flutter pub get
 ```
-```bash
 # Run the app on your connected device
+```bash
 flutter run
 ```
 
